@@ -18,7 +18,6 @@ class TestPrintFiles(unittest.TestCase):
         files = files.split('\n')
         files_map = {f.split('\t')[0]: int(f.split('\t')[1]) for f in files if f}
         files_sizes = [int(f.split('\t')[1]) for f in files if f]
-        print(files_map)
 
         self.assertGreater(files_map['dictionary.py'], 1980)
         self.assertEqual(files_map['output.txt'], 115)
