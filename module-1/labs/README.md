@@ -18,8 +18,10 @@ lab_id = 0
 
 zipped_dir = f'lab{lab_id}_{name}_{surname}_{group_id}.zip'
 # 'lab0_Name_Surname_161.zip'
+```
+- Each lab archive could be emailed to the `lingvo-python-ml@yandex.ru` with topic `mail_topic` until hard deadline!
+```
 mail_topic = f'lab{lab_id}_{name}_{surname}_{group_id}'
 # 'lab0_Name_Surname_161'
 ```
-- Each lab archive could be emailed to the `lingvo-python-ml@yandex.ru` with topic `mail_topic` until hard deadline!
-- Each submission after deadline would be verified with 0/10+ points. But you will have positive feedback! ;) 
+- Each submission after deadline would be verified with 0 points. But you will have positive feedback! ;) 
