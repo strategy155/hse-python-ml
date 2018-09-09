@@ -1,4 +1,4 @@
-## four-exercises (3 points)
+## four-exercises (4 points)
 
 - ### divisible
 
