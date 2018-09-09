@@ -16,7 +16,7 @@ Write a function `register_count(string)` that accepts a sentence and calculate 
 **Output:** `{'UPPER': 1, 'LOWER': 9}`
 **Hints:** `str.upper()`, `str.lower()`
 
-- ### 
+- ### pairwise_diff
 Write a function  `pairwise_diff(first, second)` that computes the proportion of bases that differ between two DNA sequences of the same length. Both inputs are strings.
 
 **Input:** `aBC`, `ABC`
