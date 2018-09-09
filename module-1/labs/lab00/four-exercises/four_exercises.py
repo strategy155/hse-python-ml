@@ -4,8 +4,8 @@
 
 def divisible(begin, end):
     """
-    :param begin: positive integer
-    :param end: positive integer
+    :param begin: int, positive integer
+    :param end: int, positive integer
     :return: str, string of space separated integers
 
     Examples of usage:
@@ -40,9 +40,8 @@ def divisible(begin, end):
 
 def register_count(string):
     """
-
-    :param string:
-    :return: dict
+    :param string: str, input string
+    :return: dict, dict of lower and upper letter counts
 
     >>> register_count("Mama")
     {'UPPER': 1, 'LOWER': 3}
@@ -58,11 +57,11 @@ def register_count(string):
     raise NotImplementedError
 
 
-def pairwise_diff(left, right):
+def pairwise_diff(first, second):
     """
 
-    :param left: str
-    :param right: str
+    :param first: str, first input string
+    :param second: str, second input string
     :return: float, percentage of different letters
 
     >>> pairwise_diff('ABSD', 'ABCD')
@@ -79,12 +78,12 @@ def pairwise_diff(left, right):
     Traceback (most recent call last):
     ...
     AssertionError
-    >>> left = 'Salaman..'; right = 'Salaman.!'
-    >>> round(1. / len(left), 2) == pairwise_diff(left, right)
+    >>> first = 'Salaman..'; second = 'Salaman.!'
+    >>> round(1. / len(first), 2) == pairwise_diff(first, second)
     True
-    >>> pairwise_diff(left + right, left + left)
+    >>> pairwise_diff(first + second, second + first)
     0.06
-    >>> pairwise_diff(left * 3, right * 2 + left)
+    >>> pairwise_diff(first * 3, second * 2 + first)
     0.07
     """
     raise NotImplementedError
@@ -92,8 +91,8 @@ def pairwise_diff(left, right):
 
 def run_robot():
     """
-
-    :return:
+    Uses input() inside.
+    :return: int, rounded euclidean distance from origin
     """
     NotImplementedError
 
