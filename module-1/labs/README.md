@@ -3,6 +3,11 @@
 - All tasks should be done independently
 - Cheating is punished by zeroing points
 - Each lab has a **hard deadline** in `README.md` file in the relevant folder
+- Each your script could be satisfied PEP8 style guide. Each error coming from procedure
+```
+$ pycodestyle --first <script_name>.py
+```
+will be punished by one point from total points!
 - Each lab folder with your solutions and tests could be zipped in archive like this
 ```
 name = 'Name'
