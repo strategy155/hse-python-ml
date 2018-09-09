@@ -1,1 +1,1 @@
-## four-exercises (2 points)
+## factorial (2 points)
