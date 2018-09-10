@@ -1,13 +1,13 @@
 ### How to:
 
-- All tasks should be done independently
+- All tasks should be done independently. You can share ideas, but not source code
+- Borrowing the source code must be accompanied by a link to the source. For instance, you find a solution of subtask on stackoverflow etc
 - Cheating is punished by zeroing points
 - Each lab has a **hard deadline** in `README.md` file in the relevant folder
-- Each your script could be satisfied PEP8 style guide. Each error coming from procedure
+- Each your script could be satisfied PEP8 style guide. Each error coming from `checking procedure` will be punished by one point from total points!
 ```
 $ pycodestyle --first <script_name>.py
 ```
-will be punished by one point from total points!
 - Each lab folder with your solutions and tests could be zipped in archive like this
 ```
 name = 'Name'
