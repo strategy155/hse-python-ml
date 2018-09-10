@@ -34,7 +34,7 @@ RIGHT 2
 The numbers after the direction are steps. Please write a function to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
 To test your implementation use `$ python3 test_robot.py`
 
-**Input:** (from console)
+**Input:** (from console or file using redirect `<` parameter)
 ```
 UP 5
 DOWN 3
