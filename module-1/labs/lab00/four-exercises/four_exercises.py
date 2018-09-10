@@ -49,9 +49,9 @@ def register_count(string):
     {'UPPER': 2, 'LOWER': 6}
     >>> register_count("LingvoX!!!")
     {'UPPER': 2, 'LOWER': 5}
-    >>> register_count("Труд, мир, май! Жвачка!")
+    >>> register_count("Trud, mir, mai! Zvahka!")
     {'UPPER': 2, 'LOWER': 14}
-    >>> register_count("Цой ЖИВ!,,,,,")
+    >>> register_count("Coi ZIV!,,,,,")
     {'UPPER': 4, 'LOWER': 2}
     """
     raise NotImplementedError
