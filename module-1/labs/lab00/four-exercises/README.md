@@ -21,6 +21,7 @@ Write a function  `pairwise_diff(first, second)` that computes the proportion of
 
 **Input:** `aBC`, `ABC`
 **Output:** 0.33
+**Hints:** `assert`
 
 - ### run_robot
 A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:
