@@ -10,21 +10,15 @@ def reverse_dictionary(dictionary):
     Function reverses dictionary with structure { key: [values] } to
     dictionary with structure {value: [keys]}.
 
-    >>> res = reverse_dictionary( {1: [4], 2: [3]} )
-    >>> true_res1 = {3: [2], 4: [1]}
-    >>> true_res1 == res
+    >>> d = reverse_dictionary( {1: [4], 2: [3]} )
+    >>> d == {3: [2], 4: [1]}
     True
-
-    >>> res = reverse_dictionary( {1: [3, 4, 5]} )
-    >>> true_res2 = {3: [1], 4: [1], 5: [1]}
-    >>> true_res2 == res
+    >>> d = reverse_dictionary( {1: [3, 4, 5]} )
+    >>> d == {3: [1], 4: [1], 5: [1]}
     True
-
-    >>> res = reverse_dictionary( {'hello': ['привет', 'здравствуй'], 'python': ['питон'] })
-    >>> true_res3 = {'здравствуй': ['hello'], 'привет': ['hello'], 'питон': ['python']}
-    >>> true_res3 == res
+    >>> d == reverse_dictionary( {'hello': ['привет', 'здравствуй'], 'python': ['питон'] })
+    >>> d == {'здравствуй': ['hello'], 'привет': ['hello'], 'питон': ['python']}
     True
-
     """
     raise NotImplementedError
 
