@@ -33,16 +33,21 @@ def parse_dictionary(text):
     """
     Function forms dictionary from input text.
 
-    >>> parse_dictionary('мама - mommy')
-    {'мама': ['mommy']}
-    >>> parse_dictionary('hello - привет, здравствуй')
-    {'hello': ['привет', 'здравствуй']}
-    >>> parse_dictionary('hello - привет, здравствуй, здорова')
-    {'hello': ['привет', 'здравствуй', 'здорова']}
-    >>> parse_dictionary("мама - mommy, mom\\nпапа - daddy, father")
-    {'мама': ['mommy', 'mom'], 'папа': ['daddy', 'father']}
-    >>> parse_dictionary("сын - son\\nпапа - daddy, father")
-    {'сын': ['son'], 'папа': ['daddy', 'father']}
+    >>> d = parse_dictionary('мама - mommy')
+    >>> d == {'мама': ['mommy']}
+    True
+    >>> d = parse_dictionary('hello - привет, здравствуй')
+    >>> d == {'hello': ['привет', 'здравствуй']}
+    True
+    >>> d = parse_dictionary('hello - привет, здравствуй, здорова')
+    >>> d = {'hello': ['привет', 'здравствуй', 'здорова']}
+    True
+    >>> d = parse_dictionary("мама - mommy, mom\\nпапа - daddy, father")
+    >>> d == {'мама': ['mommy', 'mom'], 'папа': ['daddy', 'father']}
+    True
+    >>> d = parse_dictionary("сын - son\\nпапа - daddy, father")
+    >>> d == {'сын': ['son'], 'папа': ['daddy', 'father']}
+    True
     """
     raise NotImplementedError
 
