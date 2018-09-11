@@ -43,16 +43,16 @@ def register_count(string):
     :param string: str, input string
     :return: dict, dict of lower and upper letter counts
 
-    >>> register_count("Mama")
-    {'UPPER': 1, 'LOWER': 3}
-    >>> register_count("Your Name")
-    {'UPPER': 2, 'LOWER': 6}
-    >>> register_count("LingvoX!!!")
-    {'UPPER': 2, 'LOWER': 5}
-    >>> register_count("Trud, mir, mai! Zvahka!")
-    {'UPPER': 2, 'LOWER': 14}
-    >>> register_count("Coi ZIV!,,,,,")
-    {'UPPER': 4, 'LOWER': 2}
+    >>> register_count("Mama") == {'UPPER': 1, 'LOWER': 3}
+    True
+    >>> register_count("Your Name") == {'UPPER': 2, 'LOWER': 6}
+    True
+    >>> register_count("LingvoX!!!") == {'UPPER': 2, 'LOWER': 5}
+    True
+    >>> register_count("Trud, mir, mai! Zvahka!") == {'UPPER': 2, 'LOWER': 14}
+    True
+    >>> register_count("Coi ZIV!,,,,,") == {'UPPER': 4, 'LOWER': 2}
+    True
     """
     raise NotImplementedError
 
