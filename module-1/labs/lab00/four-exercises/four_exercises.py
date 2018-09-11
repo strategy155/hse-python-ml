@@ -81,7 +81,7 @@ def pairwise_diff(first, second):
     >>> first = 'Salaman..'; second = 'Salaman.!'
     >>> round(1. / len(first), 2) == pairwise_diff(first, second)
     True
-    >>> pairwise_diff(first + second, second + first)
+    >>> pairwise_diff(first + second, first + first)
     0.06
     >>> pairwise_diff(first * 3, second * 2 + first)
     0.07
