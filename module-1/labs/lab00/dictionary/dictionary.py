@@ -16,7 +16,7 @@ def reverse_dictionary(dictionary):
     >>> d = reverse_dictionary( {1: [3, 4, 5]} )
     >>> d == {3: [1], 4: [1], 5: [1]}
     True
-    >>> d == reverse_dictionary( {'hello': ['привет', 'здравствуй'], 'python': ['питон'] })
+    >>> d = reverse_dictionary( {'hello': ['привет', 'здравствуй'], 'python': ['питон'] })
     >>> d == {'здравствуй': ['hello'], 'привет': ['hello'], 'питон': ['python']}
     True
     """
