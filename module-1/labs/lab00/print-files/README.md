@@ -1,4 +1,4 @@
-## print_files (3 points)
+## print-files (3 points)
 
 Write a program that writes a list of files in this
 directory and sorts them according to their size. The program should
