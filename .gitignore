@@ -413,3 +413,8 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+.idea/hse-python-ml.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
